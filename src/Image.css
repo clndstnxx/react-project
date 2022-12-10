@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .project {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; 
+  }
+  .row {
+    margin-right: 100px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.wallpaper{
+    width: 100%; 
+    padding: 10px; 
+    height: 600px
+}
+.monica{
+    border-radius:50%; 
+    width: 15%; 
+}
+.course{
+    width: 50%;    
+}
+
+.postcode, .kiddoit{
+    width: 50%;
+}
